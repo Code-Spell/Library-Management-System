@@ -1,3 +1,6 @@
+import net.codespell.assignments.Book;
+import net.codespell.assignments.Library;
+import net.codespell.assignments.Member;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
@@ -8,7 +11,6 @@ public class LibraryTest {
     private Book book1;
     private Book book2;
     private Member member1;
-    private Member member2;
     
     @BeforeEach
     public void setUp() {
@@ -16,7 +18,6 @@ public class LibraryTest {
         book1 = new Book("Book One", "Author One", "ISBN001", 2020);
         book2 = new Book("Book Two", "Author Two", "ISBN002", 2021);
         member1 = new Member("M001", "Alice", "alice@example.com");
-        member2 = new Member("M002", "Bob", "bob@example.com");
     }
     
     @Test
